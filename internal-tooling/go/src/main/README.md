@@ -14,3 +14,4 @@
 - This should print out the previously sent json request on separate lines
 
 ### TODO: The ports are hardcoded - can be made command line args
+### Pending: The aspect of writing the json content to disk/database - Not implemented yet
