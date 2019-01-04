@@ -1,2 +1,3 @@
-# ts-assignment
-Solutions for TS assignment
+# Assignment for TS
+Contains source code for the assignments.
+Please open respective folders
