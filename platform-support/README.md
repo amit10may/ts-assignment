@@ -7,6 +7,12 @@
 - test.sh cannot be run remotely since it needs user interaction. So used expect approch
 - Screenshots are contained the solution document (docx)
 
+### Notes
+- ansible.cfg needed small change to disable host checking
+- hosts / inventory file not uploaded for security reasons. Below is the snippet from the same
+- [dev]
+- x.x.x.x ansible_connection=ssh ansible_user=user ansible_ssh_pass=secretpwd ansible_become_pass=secretsudopwd
+
 ### Pending
 - Writing the rsyslog filter
 - Writing the Ansible Role to test the script
