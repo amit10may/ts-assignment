@@ -1,0 +1,13 @@
+-
+  hosts: dev
+  become: true
+  tasks:
+    -
+      name: 'Copy script'
+      copy:
+        src: /home/user/exam/test.sh
+        dest: /usr/bin/test.sh
+        owner: user
+        group: user
+        mode: 0744
+

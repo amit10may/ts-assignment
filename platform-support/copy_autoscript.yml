@@ -1,0 +1,13 @@
+-
+  hosts: dev
+  become: true
+  tasks:
+    -
+      name: 'Copy script'
+      copy:
+        src: /home/user/exam/test1.exp
+        dest: /usr/bin/test1.exp
+        owner: user
+        group: user
+        mode: 0744
+

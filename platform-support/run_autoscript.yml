@@ -1,0 +1,8 @@
+-
+  hosts: dev
+  become: false
+  tasks:
+    -
+      name: 'Run script'
+      command: bash test1.exp
+
