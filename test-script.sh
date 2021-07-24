@@ -1,0 +1,1 @@
+echo "from the script"
