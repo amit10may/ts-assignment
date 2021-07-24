@@ -1,1 +1,1 @@
-echo "Hello, weather is very humid now"
+echo "Hello, weather is cold now"
